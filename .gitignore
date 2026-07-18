@@ -1,0 +1,22 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+~$*
+__pycache__/
+*.pyc
+
+# 本地编辑器与工具状态；如未来决定共享配置，可删除对应行
+.vscode/
+.idea/
+.obsidian/workspace*.json
+.obsidian/cache
+
+# 本地发布配置可能含私人文件名或敏感词，不进入版本历史
+.releaseignore
+.release-private-patterns
+
+# 生成的发布产物；说明文件仍保留
+发布包/*.zip
+发布包/*.sha256
